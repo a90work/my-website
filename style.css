@@ -1,0 +1,98 @@
+.login-box {
+    width: 350px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgb(88, 119, 255);
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 0 4px 15px;
+    font-family: cursive;
+    position: relative;  
+}
+
+.login-box input {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 12px;
+    border: 2px solid blueviolet;
+    padding: 9px;
+}
+
+
+.login-box button {
+    position: absolute;
+    bottom: 30px;    
+    left: 50%;        
+    transform: translateX(-50%);
+    text-align: center;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+}
+
+ /*for register up*/
+
+.bodymain {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 200px; /* فاصله بین دکمه‌ها */
+    font-family: cursive;
+    background: linear-gradient(135deg, #ff0080, #00b4ff);
+    
+}
+
+.first {
+    color: #000000;
+    position:28px;
+}
+
+
+
+
+.btn {
+    background: black;
+    color: #3f5efb;
+    font-family: cursive;
+    width: 160px;
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 2px solid #3f5efb;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    background: #ffffff;
+    transition: 0.7;
+}
+
+
+
+
+
+
+
+.aboutmain {
+    width: 350px;
+    height: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #3f5efb, #00f0ff);
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 0 4px 15px;
+    font-family: cursive;
+    position: relative;  
+}
+
+
+
